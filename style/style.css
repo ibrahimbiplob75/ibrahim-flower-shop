@@ -156,3 +156,53 @@
     font-weight: 600;
     margin: 5px;
 }
+
+
+.deal{
+    width: auto;
+    height: 620px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.deal-title{
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #272727;
+    font-family: Lato, serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+.deal-content{
+    margin-left: 200px;
+}
+.deal-description{
+    display: flex;
+    width: 634px;
+    flex-direction: column;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+.deal-image{
+    width: 318px;
+    height: 420px;
+    flex-shrink: 0;
+    margin-top: 110px;
+    margin-right: 200px;
+}
+.off{
+    color:#E55473 ;
+    display: block;
+}
