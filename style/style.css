@@ -81,12 +81,12 @@
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+    margin-top: 7px;
 }
 .feature-image{
     margin-top: 80px;
     display: flex;
     width: auto;
-    height: 4867px;
     padding: 5px;
     justify-content: center;
 }
@@ -133,3 +133,26 @@
 
 
 /* Main section service area */
+.service{
+    width: auto;
+    height: 320px;
+    margin: 150px 200px 150px 200px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.image{
+    width: 88px;
+    height: 88px;
+    margin-left: 70px;
+}
+.service-title{
+    color: rgba(39, 39, 39, 0.80);
+    font-family: Lato, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    margin: 5px;
+}
