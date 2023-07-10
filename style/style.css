@@ -2,3 +2,57 @@
     margin: 0;
     padding: 0;
 }
+.header{
+    width: auto;
+    height: 850px;
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-content{
+    margin-left: 200px;
+}
+.header-title{
+    display: flex;
+    width: 708px;
+    color: #272727;
+    font-family: Lato, serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+.header-description{
+    display: flex;
+    width: 634px;
+    flex-direction: column;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+.custom-button{
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: #FFF;
+    font-family: Lato, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.header-image{
+    width: 635px;
+    height: 860px;
+    margin-top: 110px;
+    margin-right: 200px;
+}
