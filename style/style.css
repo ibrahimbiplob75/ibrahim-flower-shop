@@ -211,7 +211,7 @@
 /* Main section Gallery area */
 
 .gallery-image{
-    margin: 80px 50px 60px 50px;
+    margin: 80px 50px 15px 50px;
     display: flex;
     width: auto;
     justify-content: center;
@@ -220,4 +220,67 @@
     width: auto;
     height: 538px;
     margin: 10px;
+}
+
+/* Main section subscribe area */
+.subscribe{
+    width: auto;
+    height: 449px;
+    background-image: url("../flower_Asset/Rectangle9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 200px;
+    align-items: center;
+    position: relative;
+}
+.subscribe-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center
+}
+.subscribe-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato, serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.subscribe-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 10px;
+}
+.subscribe-form{
+    text-align: center;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.B{
+    margin-left: 15px;
+}
+.email{
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: justify;
+    padding-left: 10px;
+    font-family: Lato, serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
