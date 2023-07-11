@@ -157,6 +157,7 @@
     margin: 5px;
 }
 
+/* Main section Deal area */
 
 .deal{
     width: auto;
@@ -205,4 +206,18 @@
 .off{
     color:#E55473 ;
     display: block;
+}
+
+/* Main section Gallery area */
+
+.gallery-image{
+    margin: 80px 50px 60px 50px;
+    display: flex;
+    width: auto;
+    justify-content: center;
+}
+.image-item{
+    width: auto;
+    height: 538px;
+    margin: 10px;
 }
